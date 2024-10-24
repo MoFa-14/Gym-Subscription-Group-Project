@@ -1,0 +1,130 @@
+body {
+  font-family: 'Segoe UI', Calibri, consolas, sans-serif;
+  background-color: #000000;
+  background-image: url("imG/blog-2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: cover;	
+  background-size: 100%;
+  opacity: 1.0;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+body,h1,h2,ul {
+	margin:0;
+	padding:0;
+}
+
+html {
+	font-size:65%;
+}
+
+
+.bground {
+	background-color: #25373D;
+}
+
+.inclusive {
+	width: 96%;
+	margin:0 auto;
+}
+
+.m_top {
+	display: flex;
+	justify-content: space-between;
+	align-items: top;
+	
+}
+
+.m_top .logo {
+	text-align: center;
+	color:#fff;
+}
+
+.m_top .logo h1 {
+	font-size:3rem;
+	letter-spacing: .5rem;
+}
+
+.container {
+   max-width: 500px;
+  margin: 20px auto;
+  padding: 40px;
+  background-color: rgba(255, 0, 0, 0.5); /* red color with 50% opacity */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding: 5px 20px 5px;
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Calibri, consolas, sans-serif;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 75%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: auto;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+
+}
+
+.bottom {
+	margin-top:20px;
+	padding:20px 0;
+	display: flex;
+	gap:20px;
+}
+.bottom .connect {
+	flex-grow: 1;
+}
+
+.bottom .connect ul li {
+	border-bottom:dotted 1px #FCB941;
+	margin:5px 0;
+}
+
+.bottom .connect a {
+	font-size:1.6rem;
+	text-decoration: none;
+	color:#FCB941;
+}
+
+.line {
+	border-top:dotted 1px #FCB941;
+	margin:20px 0;
+}

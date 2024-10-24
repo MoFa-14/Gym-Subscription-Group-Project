@@ -1,2 +1,0 @@
-# Gym Subscription Group Project
- 
